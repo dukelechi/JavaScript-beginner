@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+.task-scheduler-container{
+    width: 80%;
+    margin: 0 auto;
+}
+.task-scheduler-form{
+    background-color: skyblue;
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.task-scheduler-form input, .task-scheduler-form select{
+    margin:15px 0;
+    display: inline-block;
+    width: 65%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+
+}
+
+.task-scheduler-form label{
+    display: inline-block;
+    width: 30%;
+}
+
+.add-task{
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.task{
+    background-color: grey;
+    width: 22%;
+    margin:1.5%;
+    text-align: center;
+    padding: 15px 0;
+    border-radius: 6px;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+.task:nth-of-type(odd){
+    background-color: #ddd;
+    color: black;
+}
+
+.task:nth-of-type(even){
+    background-color: black;
+    color: white;
+}
+
+.done{
+    padding: 5px 20px;
+    border: none;
+    background-color: whitesmoke;
+    margin-top: 3px;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 6px 15px;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+.task:nth-of-type(odd):hover{
+    transform:translateY(5px);
+    box-shadow: 2px 2px 8px 2px black;
+
+}
+
+.task:nth-of-type(even):hover{
+    transform:translateY(5px);
+    box-shadow: 2px 2px 8px 4px #444;
+}
+
+.error_message{
+    color: red;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    margin-top: -12px;
+}

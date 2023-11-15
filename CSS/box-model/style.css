@@ -1,0 +1,48 @@
+div, button, ul, section, h1, table, input{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    
+    /* PADDING */
+    padding: 50PX;
+    padding-left: 50PX;
+    padding-right: 30PX;
+    padding-top: 10px;
+    padding-bottom: 90px;
+
+    padding: 30px 50px; /*T/B L/R*/
+    padding: 40PX 50PX 20PX; /*T L/R B*/
+    padding: 10PX 20PX 30PX 40PX; /* T R B L*/
+
+    /*M MARGIN */
+    margin: 70PX;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    margin: 20px 40px; /*T/B L/R*/
+    margin: 20px 30px 40px; /*T L/R B*/
+    margin: 10px 20px 30px 40px; /* T R B L*/
+
+    /*BORDER*/
+    border: 10px solid red;
+    border-width: 10px;
+    border-style: double;
+    border-color: brown;
+
+    border-top: 3px solid yellow;
+    border-left: 20px dashed red;
+    border-right: 5px solid green;
+    border-bottom: 10pxx dotted blue;
+
+    border-radius: 200px;
+
+    /*OUTLINE */
+
+    outline: 20px solid black;
+    outline-style: dashed;
+    outline-width: 20px;
+    outline-color: black;
+    outline-offset: 10px;
+}

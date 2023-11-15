@@ -1,0 +1,54 @@
+body{
+    font-size: 4em;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+}
+
+div{
+    /* Absolute Unit*/
+    background-color: black;
+    /*width: 200px;
+    height: 200px;*/
+
+   /* width: 10cm;
+    height: 10cm; 37.8px*/
+
+    /*width: 100mm;
+    height: 100mm; 3.78px */
+
+    /* width: 2.5in;
+    height: 2.5in; 96px */
+
+    /*width: 100pt;
+    height: 100pt; 1.37px */
+
+    /* width: 10pc;
+    height: 10pc; 16px */
+
+    /* Relative UNit*/
+    /*width: 10em;
+    height:10em; */
+    font-size: 1em;
+
+    /* width: 50%;
+    height: 400px; */
+
+    /* width: 100vw;
+    height: 100vh; */
+
+    /* width: 20vmin;
+    height: 20vmin; */
+
+    width: 20vmax;
+    height: 20vmax;
+
+
+    color: white;
+}
+
+h1{
+    font-size: 2rem;
+}

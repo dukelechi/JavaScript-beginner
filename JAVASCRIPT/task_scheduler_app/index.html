@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>TASK SCHEDULER</title>
+</head>
+<body>
+    <div class="task-scheduler-container">
+        <section>
+            <form action="" method="post" class="task-scheduler-form">
+                <label for="tasktitle"> TASK TITLE</label>
+                <input type="text" name="task-title" id="tasktitle">
+                <label for="taskdesc">TASK DESCRIPTION</label>
+                <input type="text" name="task-desc" id="taskdesc">
+                <label for="taskcat">CATEGORIES</label>
+                <select>
+                    <option value="Recreation">Recreational Activity</option>
+                    <option value="Work">work related Activity</option>
+                    <option value="Housekeeping">housekeeping Activity</option>
+                    <option value="Physical">Physical fitness Activity</option>
+                </select>
+                <label for="taskdate">Date</label>
+                <input type="date" name="task-date" id="taskdate">
+                <button class="add-task">ADD TASK</button>
+            </form>
+        </section>
+        <section id="task-tab">
+                <!-- <div class="task">
+                    <h1>Task Title</h1>
+                    <p>Task Description</p>
+                    <i>task category</i>
+                    <center>Date</center>
+                    <button class="done">done</button>
+                    <button class="close">&times;</button>
+                </div>
+                <div class="task">
+                    <h1>Task Title</h1>
+                    <p>Task Description</p>
+                    <i>task category</i>
+                    <center>Date</center>
+                    <button class="done">done</button>
+                    <button class="close">&times;</button>
+                </div>-->
+        </section>
+    </div>
+</body>
+</html>

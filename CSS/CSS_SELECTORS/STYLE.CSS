@@ -1,0 +1,30 @@
+/*li{
+    color: red;
+}
+.myli{
+    color: green;
+}
+#myid{
+    color: brown;
+}*/
+
+/*div > ul > a > li{
+    color: orange;
+}*/
+
+div li{
+    color: red;
+}
+
+button +p{
+    color: blue;
+}
+.mybutton + p{
+    color: purple;
+}
+.mybutton ~  h1{
+    color: deeppink;
+}
+[type="button"]{
+    background-color: orange;
+}
